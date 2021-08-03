@@ -1,3 +1,6 @@
+os.system('clear')
+os.system('pip install pyfiglet')
+os.system('clear')
 from pyfiglet import Figlet
 custom_fig = Figlet(font='graffiti')
 print(custom_fig.renderText('Website Scanner'))
