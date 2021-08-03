@@ -1,3 +1,6 @@
+import os
+import socket
+import time
 os.system('clear')
 os.system('pip install pyfiglet')
 os.system('clear')
@@ -6,9 +9,6 @@ custom_fig = Figlet(font='graffiti')
 print(custom_fig.renderText('Website Scanner'))
 print('By Yosif')
 print('')
-import os
-import socket
-import time
 USER = input("[+]Enter Website: ")
 time.sleep(0.3)
 print("")
